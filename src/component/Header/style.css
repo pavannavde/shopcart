@@ -1,0 +1,40 @@
+.header{
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    color: #fff;
+}
+.logo{
+    padding: 10px 30px;
+}
+.logo>span{
+    color: rgb(248, 112, 33);
+}
+.header>div{
+    width:40%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    
+
+}
+.header>div>a{
+    font-size: 20px;
+    color:rgb(248, 112, 33);
+    text-decoration: none;
+}
+.header>div>a:hover{
+    color: #fff;
+}
+
+
+@media  only screen and (max-width:500px){
+    .header>div>a{
+        font-size: 18px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+}

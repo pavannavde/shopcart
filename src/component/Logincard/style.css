@@ -1,0 +1,57 @@
+.L-card{
+    width:100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+.L-card>p{
+    font-size: 24px;
+    font-weight: 700;
+    color: red;
+}
+.L-card>form{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height:250px;
+    justify-content: flex-start;
+    gap:20px;
+    align-items: center;
+    border: 1px solid #111;
+    padding: 20px;
+    color: rgb(248, 112, 33);
+    background: #111;
+    border: 3px solid rgb(248, 112, 33);
+    border-radius: 10px 50px;
+}
+.L-card>form>input{
+    width:70%;
+    padding: 10px;
+    font-size: 18px;
+}
+.L-card>form>button{
+
+    width:100px;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(248, 112, 33);
+    border: none;
+    border-radius: 5px;
+    transition: all 1s ease-in;
+}
+.L-card>form>button:hover{
+
+    background-color: #fff;
+    color:rgb(248, 112, 33);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:500px) {
+    .L-card>form{
+        width:300px;
+    }
+}

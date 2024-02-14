@@ -1,0 +1,28 @@
+.searchBar{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+.searchBar>input{
+    width:60%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(29, 28, 28);
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgb(248,112,33);
+}
+.searchBar>select{
+    height: 50px;
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid rgb(248,112,33);
+    font-size: 18px;
+    border-radius: 5px;
+}
